@@ -9,12 +9,12 @@
     "prepublishOnly": "npm run build"
   },
   "bin": {
-    "generate-api-types": "./bin/generate-api-types.js"
+    "generate-api-types": "bin/generate-api-types.js"
   },
   "files": [
-    "dist", 
-    "bin", 
-    "LICENSE", 
+    "dist",
+    "bin",
+    "LICENSE",
     "README.md"
   ],
   "keywords": [
