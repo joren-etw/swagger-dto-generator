@@ -11,6 +11,12 @@
   "bin": {
     "generate-api-types": "./bin/generate-api-types.js"
   },
+  "files": [
+    "dist", 
+    "bin", 
+    "LICENSE", 
+    "README.md"
+  ],
   "keywords": [
     "nestjs",
     "express",
@@ -26,6 +32,7 @@
     "openapi3-ts": "^4.0.0"
   },
   "devDependencies": {
+    "@types/node": "^24.5.1",
     "typescript": "^5.3.3"
   }
 }
