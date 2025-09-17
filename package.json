@@ -1,9 +1,9 @@
 {
   "name": "swagger-dto-generator",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Generate TypeScript DTO types from Swagger/OpenAPI schemas for NestJS, Express, or any Node project.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"

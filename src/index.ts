@@ -27,8 +27,8 @@
  * Purpose: Generate TypeScript DTO types automatically from Swagger/OpenAPI schemas.
  */
 
-import * as fs from 'fs';
-import * as path from 'path';
+const fs = require('fs');
+const path = require('path');
 import {
   OpenAPIObject,
   SchemaObject,
